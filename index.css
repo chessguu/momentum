@@ -1,0 +1,141 @@
+body {
+    background-color: #392b50;
+    margin: 100px 200px;
+    margin-top:200px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.js-weather {
+    align-content: center;
+    margin: 0 auto;
+    color: #d3d3d3;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.js-clock {
+    margin: 0 auto;
+    color: #d3d3d3;
+    align-content: center;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.hr {
+    border: solid 1px #d3d3d3;
+    align-content: center;
+    width: 60%;
+}
+
+.hrx {
+    opacity: 0;
+    margin-top:30px;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+li {
+    display: block;
+}
+
+input {
+    color: #d3d3d3;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 5px;
+    width: 200px;
+    height: 29px;
+    border: none;
+    border-bottom: 2px;
+    background: transparent;
+}
+
+.js-toDoList>li>button {
+    border-radius: 10px;
+    padding: 0 3px 3px 3px;
+}
+
+.js-form,
+.js-toDoForm,
+.js-toDoList {
+    margin: 0 auto;
+    align-content: center;
+    color: #d3d3d3;
+    opacity: 0.9;
+    padding: 0px;
+}
+
+.js-toDoForm {
+    margin-bottom: 10px;
+}
+
+
+li {
+    list-style-type: none;
+
+}
+
+.js-greetings {
+    margin: 0;
+    align-content: center;
+    font-size: 1.8em;
+    color: #d3d3d3;
+}
+
+.nameHello {
+    display: flex;
+    justify-content: center;
+}
+
+.Xbutton {
+    border-radius: 20px;
+    width: 10px;
+    margin: 0 0 0 10px;
+    opacity: 0.8;
+}
+
+.Xnone {
+    display: none;
+}
+
+li {
+    font-size: 1.6em;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+#weather {
+    margin: 0 auto;
+    color: #d3d3d3;
+    align-content: center;
+    font-size: 20px;
+}
